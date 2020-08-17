@@ -32,9 +32,9 @@
 #define omp_get_max_threads() 1
 #endif
 
-#if PNG_LIBPNG_VER < 10400
-#error libpng version 1.4 or later is required. 1.6 is recommended. You have an obsolete version of libpng or compiling on an outdated/unsupported operating system. Please upgrade.
-#endif
+//#if PNG_LIBPNG_VER < 10400
+//#error libpng version 1.4 or later is required. 1.6 is recommended. You have an obsolete version of libpng or compiling on an outdated/unsupported operating system. Please upgrade.
+//#endif
 
 #if PNG_LIBPNG_VER < 10500
 typedef png_const_charp png_const_bytep;
